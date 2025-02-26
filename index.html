@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box0">
+    
+    <div id="container1">
+      <button id="btn1" onclick="option1()">Workout</button>
+      <button id="btn2" onclick="option2()">History</button>
+    </div>
+    
+    <div id="container2">
+      <input id="nameWorkout" placeholder="Name of the workout">
+      <div class="box1-1">
+        <div>
+          <header>Workout:</header>
+          <input id="sets" type="number" placeholder="Number of sets">
+          <input id="reps" type="number" placeholder="Number of reps">
+        </div>
+        
+        <div>
+          <header>Body Information:</header>
+          <input id="weight" type="number" placeholder="Your weight in kg">
+          <input id="height" type="number" placeholder="Your height in cm">
+        </div>
+        
+        <button id="btn3" onclick="calculate()">Calculate</button>
+        <button id="btn4" onclick="save()">Save</button>
+      </div>
+      
+      <input id="result" placeholder="BMI | Intensity | Total Workout" readonly>
+      
+      <div class="box1-2">
+        <button id="btn5" onclick="clear1()">Clear</button>
+        <p id="historyList">Hello World</p>
+      </div>
+    </div>
+    <div id="container3">
+      <p id="warning">Nothing to see here...<br>The site is still not finish ⚠️</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

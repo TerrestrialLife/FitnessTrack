@@ -1,0 +1,163 @@
+body {
+  font-size: 15pt;
+  font-family: 'inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  background-color: black;
+}
+.box0 {
+  background-color: black;
+  width: 340px;
+  height: 550px;
+  margin: auto;
+}
+.box1-1 {
+  background-color: black;
+  width: 320px;
+  height: 180px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 5px;
+}
+.box1-2 {
+  background-color: rgb(40, 40, 40);
+  width: 319px;
+  height: 200px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.box1-3 {
+  background-color: white;
+  margin: 5px;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 10px;
+}
+#container1 {
+  background-color: blue;
+  width: 180px;
+  height: 40px;
+  margin-left: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#container2 {
+  background-color: blue;
+  width: 330px;
+  height: 500px;
+  margin: auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#container3 {
+  background-color: red;
+  width: 330px;
+  height: 100px;
+  margin: auto;
+  display: none;
+}
+
+#btn1, #btn2 {
+  width: 80px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#btn3, #btn4 {
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+#btn3:hover, #btn4:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+}
+#btn5 {
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#btn6 {
+  background-color: red;
+  width: 50px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  
+}
+header {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 2px;
+}
+#reps, #sets, #weight, #height {
+  width: 134px;
+  height: 20px;
+  border: none;
+  margin: 3px;
+  padding: 10px;
+  outline-color: blue;
+  font-weight: bold;
+  border-radius: 2px;
+}
+#nameWorkout {
+  width: 155px;
+  height: 20px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+}
+#result {
+  background-color: rgb(40, 40, 40);
+  width: 315px;
+  height: 50px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+}
+#warning {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
